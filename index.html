@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Personal Portfolio Website Design | Codehal</title>
+
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">My Portofolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portofolio">Portofolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Fahmi Islami Putra</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I am a Mechanical Engineering student at Universitas Sebelas Maret with a strong interest in energy and automation.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="www.linkedin.com/in/fahmiislamiputra"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-image">
+            <div class="tech-circle">
+            <img src="images/fotosaya.jpg" alt="Fahmi Islami Putra">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/fotosaya.jpg" alt="About Me">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Mechanical Engineering Student</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-bot'></i>
+                <h3>Automation Control</h3>
+                <p>Expertise in automation control systems, including design and implementation.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-cog'></i>
+                <h3>Technical and Analysis Drawing</h3>
+                <p>Providing detailed technical drawings and analyses for various engineering needs.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-leaf'></i>
+                <h3>Renewable Energy System</h3>
+                <p>Design and analysis of renewable energy systems to promote sustainable practices.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portofolio" id="portofolio">
+        <h2 class="heading">All <span>Projects</span></h2>
+        <div class="portofolio-container">
+            <div class="portofolio-box">
+                <img src="images/mastercam.jpg" alt="Portfolio 1">
+                <div class="portofolio-layer">
+                    <h4>CAM Design & Programming</h4>
+                    <p>CNC code programmer</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+            <div class="portofolio-box">
+                <img src="images/PLC.jpg" alt="Portfolio 2">
+                <div class="portofolio-layer">
+                    <h4>PLC Programming</h4>
+                    <p>PLC Omron and Siemens</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+            <div class="portofolio-box">
+                <img src="images/cnc.jpg" alt="Portfolio 3">
+                <div class="portofolio-layer">
+                    <h4>CNC Program Simulation</h4>
+                    <p>CNC Machine Simulation</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+            <div class="portofolio-box">
+                <img src="images/pipe.jpg" alt="Portfolio 4">
+                <div class="portofolio-layer">
+                    <h4>Pressure Vessel Analysis</h4>
+                    <p>PV Elite Software</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+            <div class="portofolio-box">
+                <img src="images/autocad.jpg" alt="Portfolio 5">
+                <div class="portofolio-layer">
+                    <h4>Technical Drawing</h4>
+                    <p>AutoCAD & SolidWorks</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" />
+                <input type="email" placeholder="Email Address" />
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" />
+                <input type="text" placeholder="Email Subject" />
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn" />
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2024 Fahmi Islami Putra | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-chevrons-up'></i></a>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
